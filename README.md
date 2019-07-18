@@ -30,9 +30,9 @@ model = WebSTSBert()
 
 model.predict("She won an olympic gold medal","The women is an olympic champion")
 model.predict("She won an olympic gold medal","The women is an olympic champion")
-``
+```
 
 
 
-# Warnings
-You will need a GPU to apply these models if you would like any hint of speed in your predictions.
+# Notes
+- You will need a GPU to apply these models if you would like any hint of speed in your predictions.
