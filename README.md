@@ -31,6 +31,7 @@ model = WebSTSBert()
 model.predict("She won an olympic gold medal","The women is an olympic champion")
 model.predict("She won an olympic gold medal","The women is an olympic champion")
 ```
+More [examples](/examples).
 
 
 
