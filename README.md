@@ -36,4 +36,4 @@ More [examples](/examples).
 
 # Notes
 - You will need a GPU to apply these models if you would like any hint of speed in your predictions.
-- Models downloads are cached in `~/.cache/torch/semantic_text_similarity/`. Try clearing this folder if you have issues.
+- Model downloads are cached in `~/.cache/torch/semantic_text_similarity/`. Try clearing this folder if you have issues.
