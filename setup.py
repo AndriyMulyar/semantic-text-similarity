@@ -48,7 +48,8 @@ setup(
     install_requires=[
         'torch',
         'strsim',
-        'pytorch-pretrained-bert'
+        'pytorch-transformers',
+        'scipy'
     ],
     tests_require=["pytest"],
     cmdclass={"pytest": PyTest},

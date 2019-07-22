@@ -24,12 +24,11 @@ pip install git+https://github.com/AndriyMulyar/semantic-text-similarity
 
 # Use
 ```python
-from semantic_text_similarity import WebSTSBert
+from semantic_text_similarity import WebBertSimilarity
 
-model = WebSTSBert()
+model = WebBertSimilarity(device='cpu') #defaults to GPU prediction
 
-model.predict("She won an olympic gold medal","The women is an olympic champion")
-model.predict("She won an olympic gold medal","The women is an olympic champion")
+model.predict([("She won an olympic gold medal","The women is an olympic champion")])
 ```
 More [examples](/examples).
 
