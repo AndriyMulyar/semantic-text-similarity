@@ -1,7 +1,7 @@
 # semantic-text-similarity
 an easy-to-use interface to fine-tuned BERT models for computing semantic similarity. that's it.
 
-This project contains an interface to fine-tuned, BERT-based semantic text similarity models. It modifies [pytorch-pretrained-bert](https://github.com/huggingface/pytorch-transformers) by abstracting away all the research benchmarking code for ease of real-world applicability.
+This project contains an interface to fine-tuned, BERT-based semantic text similarity models. It modifies [pytorch-transformers](https://github.com/huggingface/pytorch-transformers) by abstracting away all the research benchmarking code for ease of real-world applicability.
 
 | Model             | Training Dataset | Dev. Correlation |
 |-------------------|------------------|------------------|
