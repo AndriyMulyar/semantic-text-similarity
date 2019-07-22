@@ -5,7 +5,7 @@ This project contains an interface to fine-tuned, BERT-based semantic text simil
 
 | Model             | Training Dataset | Dev. Correlation |
 |-------------------|------------------|------------------|
-| Web STS BERT      | STS-B            |                  |
+| Web STS BERT      | STS-B            |     0.893        |
 | Clinical STS BERT | MED-STS          |                  |
 
 # Installation
@@ -36,3 +36,4 @@ More [examples](/examples).
 
 # Notes
 - You will need a GPU to apply these models if you would like any hint of speed in your predictions.
+- Models downloads are cached in `~/.cache/torch/semantic_text_similarity/`. Try clearing this folder if you have issues.
