@@ -23,10 +23,11 @@ pip install git+https://github.com/AndriyMulyar/semantic-text-similarity
 ```
 
 # Use
+Maps batches of sentence pairs to a real-valued scores in the range [0,5]
 ```python
 from semantic_text_similarity.models import WebBertSimilarity
 
-model = WebBertSimilarity(device='cpu') #defaults to GPU prediction
+model = WebBertSimilarity(device='cpu', batch_size=10) #defaults to GPU prediction
 
 model.predict([("She won an olympic gold medal","The women is an olympic champion")])
 ```

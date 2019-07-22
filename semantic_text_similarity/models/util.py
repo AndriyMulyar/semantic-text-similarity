@@ -30,7 +30,7 @@ def get_model_path(model_name: str):
     else:
         os.makedirs(model_path)
         with tempfile.NamedTemporaryFile() as temp_file:
-            print("Downloading model: %s" % model_name)
+            print("Downloading model: %s from %s" % (model_name, model_url))
             try:
                 http_get(model_url, temp_file)
                 tar = tarfile.open(temp_file.name)
