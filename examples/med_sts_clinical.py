@@ -1,5 +1,4 @@
-from semantic_text_similarity.data import load_sts_b_data
-from semantic_text_similarity import ClinicalBertSimilarity
+from semantic_text_similarity.models import ClinicalBertSimilarity
 from scipy.stats import pearsonr
 
 model = ClinicalBertSimilarity()

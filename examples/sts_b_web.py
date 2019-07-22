@@ -1,5 +1,5 @@
+from semantic_text_similarity.models import WebBertSimilarity
 from semantic_text_similarity.data import load_sts_b_data
-from semantic_text_similarity import WebBertSimilarity
 from scipy.stats import pearsonr
 
 train, dev, test = load_sts_b_data()

@@ -24,7 +24,7 @@ pip install git+https://github.com/AndriyMulyar/semantic-text-similarity
 
 # Use
 ```python
-from semantic_text_similarity import WebBertSimilarity
+from semantic_text_similarity.models import WebBertSimilarity
 
 model = WebBertSimilarity(device='cpu') #defaults to GPU prediction
 
