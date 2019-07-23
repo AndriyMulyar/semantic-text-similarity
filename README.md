@@ -23,7 +23,7 @@ pip install git+https://github.com/AndriyMulyar/semantic-text-similarity
 ```
 
 # Use
-Maps batches of sentence pairs to a real-valued scores in the range [0,5]
+Maps batches of sentence pairs to real-valued scores in the range [0,5]
 ```python
 from semantic_text_similarity.models import WebBertSimilarity
 
