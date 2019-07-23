@@ -37,7 +37,10 @@ def bert_sentence_pair_preprocessing(data: list, tokenizer: BertTokenizer, max_s
     for sentence_pair in data:
 
         sentence_1_tokenized, sentence_2_tokenized = tokenizer.tokenize(sentence_pair['sentence_1']), tokenizer.tokenize(sentence_pair['sentence_2'])
+        print(len(sentence_1_tokenized), len(sentence_2_tokenized))
         _truncate_seq_pair(sentence_1_tokenized, sentence_2_tokenized, max_sequence_length - 3) #accounting for positioning tokens
+        print(len(sentence_1_tokenized), len(sentence_2_tokenized))
+
 
         max_bert_input_length = max(max_bert_input_length, len(sentence_1_tokenized) + len(sentence_1_tokenized) + 3)
         sentence_pair['sentence_1_tokenized'] = sentence_1_tokenized
