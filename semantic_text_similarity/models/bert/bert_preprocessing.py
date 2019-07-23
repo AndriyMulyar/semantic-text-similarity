@@ -33,6 +33,7 @@ def bert_sentence_pair_preprocessing(data: list, tokenizer: BertTokenizer, max_s
     """
 
     max_bert_input_length = 0
+    print(data)
     for sentence_pair in data:
 
         sentence_1_tokenized, sentence_2_tokenized = tokenizer.tokenize(sentence_pair['sentence_1']), tokenizer.tokenize(sentence_pair['sentence_2'])
