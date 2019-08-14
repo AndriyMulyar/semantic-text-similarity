@@ -41,3 +41,8 @@ More [examples](/examples).
 # Notes
 - You will need a GPU to apply these models if you would like any hint of speed in your predictions.
 - Model downloads are cached in `~/.cache/torch/semantic_text_similarity/`. Try clearing this folder if you have issues.
+
+
+# Acknowledgement
+Clinical models in this project were submitted to the 2019 N2C2 Shared Task Track 1.
+Implementation and model training in this project was supported by funding from the Mark Dredze Lab at Johns Hopkins Universty.
