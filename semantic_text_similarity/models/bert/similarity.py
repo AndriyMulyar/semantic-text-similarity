@@ -145,5 +145,3 @@ class BertSimilarity():
 
             self.log.info("Pearson: %f" % (scores['pearson']))
         self.regressor_net.train()
-
-

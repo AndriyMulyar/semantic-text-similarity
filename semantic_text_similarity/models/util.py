@@ -12,7 +12,7 @@ except ImportError:
 default_cache_path = os.path.join(torch_cache_home, 'semantic_text_similarity')
 
 MODEL_URL = {
-    'clinical-bert-similarity': None,
+    'clinical-bert-similarity': 'https://github.com/AndriyMulyar/semantic-text-similarity/releases/download/v1.0.0/clinical_bert_similarity.tar.gz',
     'web-bert-similarity': 'https://github.com/AndriyMulyar/semantic-text-similarity/releases/download/v1.0.0/web_bert_similarity.tar.gz'
 }
 def get_model_path(model_name: str):

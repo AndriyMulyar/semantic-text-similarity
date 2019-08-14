@@ -3,10 +3,10 @@ an easy-to-use interface to fine-tuned BERT models for computing semantic simila
 
 This project contains an interface to fine-tuned, BERT-based semantic text similarity models. It modifies [pytorch-transformers](https://github.com/huggingface/pytorch-transformers) by abstracting away all the research benchmarking code for ease of real-world applicability.
 
-| Model             | Training Dataset | Dev. Correlation |
+| Model             |          Dataset | Dev. Correlation |
 |-------------------|------------------|------------------|
 | Web STS BERT      | STS-B            |     0.893        |
-| Clinical STS BERT | MED-STS          |                  |
+| Clinical STS BERT | MED-STS          |     0.854        |
 
 # Installation
 

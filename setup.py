@@ -49,6 +49,7 @@ setup(
     install_requires=[
         'torch',
         'strsim',
+        'fuzzywuzzy[speedup]',
         'pytorch-transformers',
         'scipy'
     ],
