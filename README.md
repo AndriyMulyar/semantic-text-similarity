@@ -45,4 +45,4 @@ More [examples](/examples).
 
 # Acknowledgement
 Clinical models in this project were submitted to the 2019 N2C2 Shared Task Track 1.
-Implementation and model training in this project was supported by funding from the Mark Dredze Lab at Johns Hopkins Universty.
+Implementation and model training in this project was supported by funding from the Mark Dredze Lab at Johns Hopkins University.
