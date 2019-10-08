@@ -50,7 +50,7 @@ setup(
         'torch',
         'strsim',
         'fuzzywuzzy[speedup]',
-        'pytorch-transformers',
+        'pytorch-transformers==1.0.1',
         'scipy'
     ],
     tests_require=["pytest"],
